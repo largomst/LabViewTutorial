@@ -10,11 +10,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="2019-11-15" Type="Folder">
+			<Item Name="lzx.vi" Type="VI" URL="../lzx.vi"/>
+		</Item>
+		<Item Name="2019-11-18" Type="Folder"/>
 		<Item Name="基本概念" Type="Folder">
 			<Item Name="HelloWorld.vi" Type="VI" URL="../HelloWorld.vi"/>
 			<Item Name="第一个项目.vi" Type="VI" URL="../第一个项目.vi"/>
+			<Item Name="作为主程序使用.vi" Type="VI" URL="../作为主程序使用.vi"/>
 		</Item>
-		<Item Name="作为主程序使用.vi" Type="VI" URL="../作为主程序使用.vi"/>
+		<Item Name="Array.vi" Type="VI" URL="../Array.vi"/>
+		<Item Name="Cluster.vi" Type="VI" URL="../Cluster.vi"/>
+		<Item Name="fib.vi" Type="VI" URL="../fib.vi"/>
 		<Item Name="依赖关系" Type="Dependencies"/>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="HelloWorld" Type="EXE">
