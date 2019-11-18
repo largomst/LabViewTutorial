@@ -21,7 +21,11 @@
 			<Item Name="LabView360-6-Global-1.vi" Type="VI" URL="../LabView360-6-Global-1.vi"/>
 			<Item Name="LabView360-6-Global-2.vi" Type="VI" URL="../LabView360-6-Global-2.vi"/>
 			<Item Name="LabView360-6-Global.vi" Type="VI" URL="../LabView360-6-Global.vi"/>
+			<Item Name="LabView360-6-布局.vi" Type="VI" URL="../LabView360-6-布局.vi"/>
 			<Item Name="LabView360-6.vi" Type="VI" URL="../LabView360-6.vi"/>
+			<Item Name="MyGlobal-Global.vi" Type="VI" URL="../MyGlobal-Global.vi"/>
+			<Item Name="MyGlobal.vi" Type="VI" URL="../MyGlobal.vi"/>
+			<Item Name="MyGlobal2.vi" Type="VI" URL="../MyGlobal2.vi"/>
 		</Item>
 		<Item Name="基本概念" Type="Folder">
 			<Item Name="HelloWorld.vi" Type="VI" URL="../HelloWorld.vi"/>
@@ -31,7 +35,6 @@
 		<Item Name="Array.vi" Type="VI" URL="../Array.vi"/>
 		<Item Name="Cluster.vi" Type="VI" URL="../Cluster.vi"/>
 		<Item Name="fib.vi" Type="VI" URL="../fib.vi"/>
-		<Item Name="全局 2.vi" Type="VI" URL="../全局 2.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
