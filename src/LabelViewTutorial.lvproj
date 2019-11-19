@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="18008000">
 	<Item Name="我的电脑" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -26,6 +26,13 @@
 			<Item Name="MyGlobal-Global.vi" Type="VI" URL="../MyGlobal-Global.vi"/>
 			<Item Name="MyGlobal.vi" Type="VI" URL="../MyGlobal.vi"/>
 			<Item Name="MyGlobal2.vi" Type="VI" URL="../MyGlobal2.vi"/>
+		</Item>
+		<Item Name="2019-11-19" Type="Folder">
+			<Item Name="LabView360-6-2.vi" Type="VI" URL="../LabView360-6-2.vi"/>
+			<Item Name="LabView360-7.vi" Type="VI" URL="../LabView360-7.vi"/>
+			<Item Name="Navigation.lvclass" Type="LVClass" URL="../Navigation.lvclass"/>
+			<Item Name="使用 Navigation.vi" Type="VI" URL="../使用 Navigation.vi"/>
+			<Item Name="自定义菜单.rtm" Type="Document" URL="../自定义菜单.rtm"/>
 		</Item>
 		<Item Name="基本概念" Type="Folder">
 			<Item Name="HelloWorld.vi" Type="VI" URL="../HelloWorld.vi"/>
