@@ -164,6 +164,91 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="程序生成规范" Type="Build"/>
+		<Item Name="程序生成规范" Type="Build">
+			<Item Name="PackagePython" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{11FDFC97-65E8-4608-AED9-188A0D6617AB}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{40BAA51F-7970-469A-BF8A-3C16D5D0D2FD}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{12CF2B5B-1B62-4C96-B8A5-F55EFA0F3283}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">程序的生成目录不能使用中文路径，会导致应用程序目录无法正常工作。
+
+除了源码之外的文件会被 LabView 自动放到 data 文件夹下，所以需要 join：data/xxx.py </Property>
+				<Property Name="Bld_buildSpecName" Type="Str">PackagePython</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/PackagePython</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{33848192-E0CD-4866-BB2B-FE468CD5C36D}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">PackagePython.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/PackagePython/PackagePython.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/PackagePython/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{72AC84AC-BFB6-4056-A92E-DA318EABEA36}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{BC7FE637-D20C-421B-A122-FD879F274A7F}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{7DF8C768-5887-46FE-82FF-B297C6DDC755}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{52DCFBE7-B8B5-4BAD-A1E1-7C4BFA3A9E89}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{818AF9B0-41ED-428D-8080-1E04A128477D}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{850C4E0E-672D-47EB-9911-B82860C8F373}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{4136B5A6-87B5-4136-9769-5B2AA27F233E}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{8047CA09-D1A8-4A43-BA70-3E614F3C7CC3}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{D9EB7DF0-2464-430A-86EB-6E904DC8E4B5}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{3EE8271D-1898-419F-B1A7-A68785696826}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{A5BCF0FD-FB8B-48FB-A696-0E488E2E38AE}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{78E968BD-93AC-43A5-A99B-4985B8335193}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{74CE815F-F573-46AF-84FB-F4323DB6DB66}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{DB3667DE-273C-4672-A01C-2C0B8436BEF2}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{EA2F3A75-B510-4F83-9224-74FCA89B3892}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{6F40ECB2-A320-4272-9801-76249E31EC17}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{AEB9D437-1BC4-4488-9670-D211A4166891}</Property>
+				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
+				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{026F2C52-EFCF-4E50-BE58-7FA052437CEC}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{1325CB2B-E263-4A8A-9790-C46A821B1BF6}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{0D347657-25BB-4D7C-9E14-0116741EEC49}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{BA5FA549-D58E-45F5-8BA9-54372A3BBADC}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{9C0F8B10-951B-404B-9F9D-AFEBB3FD4F8F}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{928C9CB0-BCC1-4034-83E6-0377A3ADB08F}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{D439322F-864C-4204-B2E7-CEB661AEF69A}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{40C4DF4C-AC0E-4F30-B4D5-3716EC320C2C}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{90773DD3-ED45-452C-9C0E-9A539181CE00}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{33C32C92-9E10-4E36-B3D8-E90580943623}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{C76FA6D7-EC43-4900-8A7D-EDE0847F0BD4}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{A7833CA3-9FB2-4458-9667-AAE10FCA958B}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{B5522314-6F59-4390-9DD2-0B35FC2FDBC0}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{AC35DCC9-E607-46E0-B6EE-29E986C32BC3}</Property>
+				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
+				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">PackagePython</Property>
+				<Property Name="Exe_actXServerName" Type="Str">PackagePython</Property>
+				<Property Name="Exe_actXServerNameGUID" Type="Str"></Property>
+				<Property Name="Source[0].itemID" Type="Str">{0BAD3B7B-5DC5-4851-8643-493459CDC745}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/PythonDeploy/PackagePython.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/PythonDeploy/PackagePython.py</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">PackagePython</Property>
+				<Property Name="TgtF_internalName" Type="Str">PackagePython</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
+				<Property Name="TgtF_productName" Type="Str">PackagePython</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{A894ED3B-6AF2-43FC-8204-9A01EB036ECA}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">PackagePython.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
