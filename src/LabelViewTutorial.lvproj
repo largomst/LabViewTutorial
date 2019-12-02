@@ -56,6 +56,11 @@
 			<Item Name="PackagePython.vi" Type="VI" URL="../PackagePython.vi"/>
 			<Item Name="PackagePython.py" Type="Document" URL="../PackagePython.py"/>
 		</Item>
+		<Item Name="2019-11-28" Type="Folder">
+			<Item Name="使用子面板.vi" Type="VI" URL="../使用子面板.vi"/>
+			<Item Name="该VI作为子面板.vi" Type="VI" URL="../该VI作为子面板.vi"/>
+			<Item Name="该文件同样作为子面板.vi" Type="VI" URL="../该文件同样作为子面板.vi"/>
+		</Item>
 		<Item Name="Array.vi" Type="VI" URL="../Array.vi"/>
 		<Item Name="Cluster.vi" Type="VI" URL="../Cluster.vi"/>
 		<Item Name="fib.vi" Type="VI" URL="../fib.vi"/>
