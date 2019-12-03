@@ -61,10 +61,14 @@
 			<Item Name="该VI作为子面板.vi" Type="VI" URL="../该VI作为子面板.vi"/>
 			<Item Name="该文件同样作为子面板.vi" Type="VI" URL="../该文件同样作为子面板.vi"/>
 		</Item>
+		<Item Name="LabView 十年" Type="Folder">
+			<Item Name="属性节点和枚举.vi" Type="VI" URL="../属性节点和枚举.vi"/>
+			<Item Name="可重入 VI.vi" Type="VI" URL="../可重入 VI.vi"/>
+			<Item Name="运行次数.vi" Type="VI" URL="../运行次数.vi"/>
+		</Item>
 		<Item Name="Array.vi" Type="VI" URL="../Array.vi"/>
 		<Item Name="Cluster.vi" Type="VI" URL="../Cluster.vi"/>
 		<Item Name="fib.vi" Type="VI" URL="../fib.vi"/>
-		<Item Name="LabView十年.vi" Type="VI" URL="../LabView十年.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
