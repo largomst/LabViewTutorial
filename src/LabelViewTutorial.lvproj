@@ -65,6 +65,10 @@
 			<Item Name="属性节点和枚举.vi" Type="VI" URL="../属性节点和枚举.vi"/>
 			<Item Name="可重入 VI.vi" Type="VI" URL="../可重入 VI.vi"/>
 			<Item Name="运行次数.vi" Type="VI" URL="../运行次数.vi"/>
+			<Item Name="自定义图标.vi" Type="VI" URL="../自定义图标.vi"/>
+			<Item Name="隐藏大量数据.vi" Type="VI" URL="../隐藏大量数据.vi"/>
+			<Item Name="调用子界面.vi" Type="VI" URL="../调用子界面.vi"/>
+			<Item Name="子界面.vi" Type="VI" URL="../子界面.vi"/>
 		</Item>
 		<Item Name="Array.vi" Type="VI" URL="../Array.vi"/>
 		<Item Name="Cluster.vi" Type="VI" URL="../Cluster.vi"/>
