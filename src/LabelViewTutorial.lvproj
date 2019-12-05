@@ -80,6 +80,8 @@
 		<Item Name="2019-12-05" Type="Folder">
 			<Item Name="能够流畅执行的界面模式.vi" Type="VI" URL="../能够流畅执行的界面模式.vi"/>
 			<Item Name="图片遍历显示.vi" Type="VI" URL="../图片遍历显示.vi"/>
+			<Item Name="调用对话框.vi" Type="VI" URL="../调用对话框.vi"/>
+			<Item Name="对话框.vi" Type="VI" URL="../对话框.vi"/>
 		</Item>
 		<Item Name="Array.vi" Type="VI" URL="../Array.vi"/>
 		<Item Name="Cluster.vi" Type="VI" URL="../Cluster.vi"/>
