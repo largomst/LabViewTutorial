@@ -75,10 +75,14 @@
 			<Item Name="子界面.vi" Type="VI" URL="../子界面.vi"/>
 			<Item Name="自定义图标.vi" Type="VI" URL="../自定义图标.vi"/>
 			<Item Name="隐藏大量数据.vi" Type="VI" URL="../隐藏大量数据.vi"/>
+			<Item Name="自定义菜单.vi" Type="VI" URL="../自定义菜单.vi"/>
 		</Item>
 		<Item Name="Array.vi" Type="VI" URL="../Array.vi"/>
 		<Item Name="Cluster.vi" Type="VI" URL="../Cluster.vi"/>
 		<Item Name="fib.vi" Type="VI" URL="../fib.vi"/>
+		<Item Name="自定义控件.vi" Type="VI" URL="../自定义控件.vi"/>
+		<Item Name="自定义运行时菜单.rtm" Type="Document" URL="../自定义运行时菜单.rtm"/>
+		<Item Name="能够流畅执行的界面模式.vi" Type="VI" URL="../能够流畅执行的界面模式.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
