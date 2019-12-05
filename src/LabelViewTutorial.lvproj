@@ -77,12 +77,15 @@
 			<Item Name="隐藏大量数据.vi" Type="VI" URL="../隐藏大量数据.vi"/>
 			<Item Name="自定义菜单.vi" Type="VI" URL="../自定义菜单.vi"/>
 		</Item>
+		<Item Name="2019-12-05" Type="Folder">
+			<Item Name="能够流畅执行的界面模式.vi" Type="VI" URL="../能够流畅执行的界面模式.vi"/>
+			<Item Name="图片遍历显示.vi" Type="VI" URL="../图片遍历显示.vi"/>
+		</Item>
 		<Item Name="Array.vi" Type="VI" URL="../Array.vi"/>
 		<Item Name="Cluster.vi" Type="VI" URL="../Cluster.vi"/>
 		<Item Name="fib.vi" Type="VI" URL="../fib.vi"/>
 		<Item Name="自定义控件.vi" Type="VI" URL="../自定义控件.vi"/>
 		<Item Name="自定义运行时菜单.rtm" Type="Document" URL="../自定义运行时菜单.rtm"/>
-		<Item Name="能够流畅执行的界面模式.vi" Type="VI" URL="../能够流畅执行的界面模式.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -182,6 +185,14 @@
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
+				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
+				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
+				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
+				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
 			</Item>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
