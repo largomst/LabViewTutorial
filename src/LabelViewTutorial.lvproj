@@ -83,10 +83,12 @@
 			<Item Name="调用对话框.vi" Type="VI" URL="../调用对话框.vi"/>
 			<Item Name="对话框.vi" Type="VI" URL="../对话框.vi"/>
 		</Item>
+		<Item Name="2019-12-09" Type="Folder">
+			<Item Name="使用自定义控件.vi" Type="VI" URL="../使用自定义控件.vi"/>
+		</Item>
 		<Item Name="Array.vi" Type="VI" URL="../Array.vi"/>
 		<Item Name="Cluster.vi" Type="VI" URL="../Cluster.vi"/>
 		<Item Name="fib.vi" Type="VI" URL="../fib.vi"/>
-		<Item Name="自定义控件.vi" Type="VI" URL="../自定义控件.vi"/>
 		<Item Name="自定义运行时菜单.rtm" Type="Document" URL="../自定义运行时菜单.rtm"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
