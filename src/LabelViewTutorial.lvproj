@@ -86,6 +86,11 @@
 		<Item Name="2019-12-09" Type="Folder">
 			<Item Name="使用自定义控件.vi" Type="VI" URL="../使用自定义控件.vi"/>
 		</Item>
+		<Item Name="2019-12-10" Type="Folder">
+			<Item Name="打断循环.vi" Type="VI" URL="../打断循环.vi"/>
+			<Item Name="状态机.vi" Type="VI" URL="../状态机.vi"/>
+			<Item Name="打断循环方案.vi" Type="VI" URL="../打断循环方案.vi"/>
+		</Item>
 		<Item Name="Array.vi" Type="VI" URL="../Array.vi"/>
 		<Item Name="Cluster.vi" Type="VI" URL="../Cluster.vi"/>
 		<Item Name="fib.vi" Type="VI" URL="../fib.vi"/>
